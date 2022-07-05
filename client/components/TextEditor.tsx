@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { schema } from 'prosemirror-schema-basic';
 import { EditorState } from "prosemirror-state";
 import { exampleSetup } from "prosemirror-example-setup";
-import { syncPlugin } from './lib/textEditor/plugins/sync.controller';
-import ProseMirror from './lib/textEditor/ProseMirror';
-import { getColor } from './lib/textEditor/utils/getColor';
-import { getName } from './lib/textEditor/utils/getName';
-import { SocketConnection } from './lib/textEditor/utils/SocketConnection';
+import { syncPlugin } from './lib/TextEditor/plugins/sync.controller';
+import ProseMirror from './lib/TextEditor/ProseMirror';
+import { getColor } from './lib/TextEditor/utils/getColor';
+import { getName } from './lib/TextEditor/utils/getName';
+import { SocketConnection } from './lib/TextEditor/utils/SocketConnection';
 
 const TextEditor = () => {
     const [state, setState] = useState(() => EditorState.create({ schema, plugins: exampleSetup({ schema }).concat(syncPlugin) }))
