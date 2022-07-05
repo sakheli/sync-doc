@@ -1,0 +1,46 @@
+:root {
+  //! ==== main colors
+  --grey_-1: #cacacf;
+  --grey: #dbdadf;
+  --grey_1: #e5e4e8;
+  --grey_2: #ebebee;
+  --grey_3: #efeff1;
+  --black_-2: #010009;
+  --black_-1: #141517;
+  --black: #14121f;
+  --black_1: #33323b;
+  --black_2: #636069;
+  --black_3: #b6b2b9;
+  --white_-1: #f6f6f6;
+  --white: #fcfcfc;
+  --white_1: #ffffff;
+  --red_-1: #cc227c;
+  --red: #d64f96;
+  --red_1: #de83b3;
+  --red_2: #f1a6ce;
+  --red_3: #f9cde4;
+  --orange_-1: #ff5b28;
+  --orange: #ff5b28;
+  --orange_1: #f87c56;
+  --orange_2: #fa9a7d;
+  --orange_3: #febea9;
+  --green_-1: #11976e;
+  --green: #07a877;
+  --green_1: #37b991;
+  --green_2: #85d4bc;
+  --green_3: #81eecd;
+  --blue_-1: #2c0dee;
+  --blue: #4021ff;
+  --blue_1: #5c42fe;
+  --blue_2: #8976ff;
+  --blue_3: #bdb2ff;
+  --purple_-1: #4e0db8;
+  --purple: #6100ff;
+  --purple_1: #7433ff;
+  --purple_2: #9773ff;
+  --purple_3: #b7acfe;
+
+  //! ==== gradiants
+  --gradient-main: linear-gradient(180deg, #ffffff 0%, #ffbca7 21.8%, #f87c56 45.67%, #cd639b 66.95%, #6100ff 95.3%);
+  --gradient-purple: linear-gradient(180deg, var(--blue_-1) 2.98%, var(--purple) 109.1%);
+}

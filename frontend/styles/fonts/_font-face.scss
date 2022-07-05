@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "General Sans";
+  src: url("/fonts/GeneralSans-Variable.ttf") format("woff2 supports variations"),
+    url("/fonts/GeneralSans-Variable.ttf") format("woff2-variations");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("/fonts/ClashDisplay-Variable.ttf") format("woff2 supports variations"),
+    url("/fonts/ClashDisplay-Variable.ttf") format("woff2-variations");
+  font-weight: 100 900;
+}
+
+.f-font-general {
+  font-family: "General Sans" !important;
+}
+
+.f-font-clash {
+  font-family: "Clash Display" !important;
+}

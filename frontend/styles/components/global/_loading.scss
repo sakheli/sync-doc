@@ -1,0 +1,28 @@
+.loading {
+    .loading_container {
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--black_-1);
+        z-index: 100;
+        position: fixed;
+        @include flex();
+        @include background-image("/images/loading.jpg");
+        user-select: none !important;
+        pointer-events: none;
+
+
+        .loading_svg {
+            transform-origin: center;
+
+            @media only screen and (max-width: $medium_screen_query) {
+                transform: scale(0.68);
+            }
+        }
+
+        .loading_path {
+            stroke-dasharray: 1065;
+            stroke-dashoffset: -500;
+            animation: dash 3s ease infinite;
+        }
+    }
+}

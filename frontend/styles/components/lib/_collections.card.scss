@@ -1,0 +1,37 @@
+.collections_card {
+    max-width: 65rem;
+    width: 90%;
+    --border-radius: calc(5px + 1.5vw);
+    background: rgba(20, 18, 31, 0.6);
+    border: 2px solid var(--black_2);
+    box-shadow: 0px 61px 96px #000000;
+    backdrop-filter: blur(219px);
+    border-radius: var(--border-radius);
+
+    .content {
+        padding: 2rem;
+
+        .image {
+            height: 55vh;
+            width: 100%;
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            border-radius: var(--border-radius);
+        }
+
+        h2 {
+            margin: calc(1.1vw + 1rem) 0;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        .content {
+            padding: 1rem;
+            
+            .image {
+                height: 25vh;
+            }
+        }
+    }
+}
